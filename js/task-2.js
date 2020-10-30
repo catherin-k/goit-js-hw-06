@@ -42,6 +42,15 @@ const getUsersWithEyeColor = (array, color) =>
   array.filter(({ eyeColor }) => eyeColor.includes(color));
 
 console.log(getUsersWithEyeColor(users, "blue"));
+
+// ----------------- task-3
+
+// const getUsersWithGender = (array, value) =>
+//   array.filter(({ gender }) => gender === value).map(({ name }) => name);
+// console.log(getUsersWithGender(users, "male"));
+
+// ----------------------
+
 // filter
 // Получи массив объектов пользователей, отобранный по
 // цвету глаз(свойство eyeColor), используя деструктурирующее
