@@ -100,6 +100,14 @@ const getSortedUniqueSkills = (array) =>
 //     .sort();
 // };
 
+// And another solution with flatMap
+// const getSortedUniqueSkills = (users) => {
+//   return users
+//     .flatMap((user) => user.skills)
+//     .filter((skill, index, arr) => arr.indexOf(skill) === index)
+//     .sort();
+// };
+
 console.log(getSortedUniqueSkills(users));
 /* [ 'adipisicing', 'amet',
  'anim', 'commodo',
